@@ -1,2 +1,3 @@
 # kounkou.github.io
-Blog
+
+This is my personal Blog
