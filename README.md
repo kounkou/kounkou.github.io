@@ -2,9 +2,29 @@
 
 ## Introduction
 
-This blog is a set of algorithms descriptions meant to build a baseline for understanding and solving complex problems.
-Solving complex problems is not only an activity one can enjoy, it's also a proof one can accomplish things.
-If life can be seen as a multiple branching probability paths, the way I approach life, is then by making sure I build a path that is a succession of optimally solved problems.
+Binary search is one of those algorithms that exibits a Mathematical property called the logarithm.
+writing this first sentence, I am sure I may have lost a couple of readers already... but if you're still
+reading this, you might have a chance to discover how this logarithm property emmerges from executing 
+a Binary search algorithm. Hopefully, you might be able to apply this notion to understand other types of 
+problems that exibit the same property.
 
-## Merge sort
+
+## Binary search
+
+To clearly understand the problem, imagine that you're given an array of integers A
+
+```python
+A = [1,2,3,4,5,6,7,8,9,9]
+```
+
+And using the binary search, we want to know what's the worst case for finding an element inside the array of integers given.
+That question implies that you know how the binary search works.
+So let me go ahead and do some refresher about the Binary search.
+To perform the binary search, we will perform the following steps :
+
+```python
+A
+|____ [1,2,3,4,5]
+|____ [6,7,8,9,9]
+```
 
