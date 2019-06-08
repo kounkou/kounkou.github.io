@@ -23,8 +23,18 @@ So let me go ahead and do some refresher about the Binary search.
 To perform the binary search, we will perform the following steps :
 
 ```python
+[to improve]
 A
 |____ [1,2,3,4,5]
+           |____ [1,2]
+                   |____ ...
+           |____ [4,5]
+                   |____ ...
 |____ [6,7,8,9,9]
+           |____ [6,7]
+                   |____ ...
+           |____ [9,9]
+                   |____ ...
 ```
-
+In other words, you're dividing the initial array to half size arrays if the element you're looking for
+is either side of the initial array.
