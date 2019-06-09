@@ -46,5 +46,27 @@ The above example is the perfect case of worse case binary search. And we want t
 of that worst case scenario. For me, the best way is to start by explaining exactly what we are looking for here.
 The worse case time complexity here refers to a number for which we have the maximum height through the execution of the algorithm.
 That height is obtained at a level where we have N children as on [script 1], and that number is a power of 2 as the initial is halved everytime.
+We can see that at level 0 with have 1 parent, 
+then at level 1 we have 2 children, etc.
+That can be writen as :
 
+```python
+[script 1]
+2^k = n
+```
 
+k being the highest level we want to determine the worse case complixity of the binary search.
+That number k can be obtained by using the log property.
+
+```python
+[script 2]
+log2 n = k
+```
+
+## Final thoughts
+
+So we can deduce that the worse case complexity of a binary search is actually :
+
+```python
+O(logn)
+```
