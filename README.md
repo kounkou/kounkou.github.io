@@ -1,4 +1,4 @@
-# A journey through algorithms
+# Binary search worst case complexity
 
 ## Introduction
 
@@ -20,21 +20,31 @@ A = [1,2,3,4,5,6,7,8,9,9]
 And using the binary search, we want to know what's the worst case for finding an element inside the array of integers given.
 That question implies that you know how the binary search works.
 So let me go ahead and do some refresher about the Binary search.
-To perform the binary search, we will perform the following steps :
+Suppose that we're searching for the number 5, to perform the binary search, we perform the following steps :
 
 ```python
-[to improve]
-A
-|____ [1,2,3,4,5]
-           |____ [1,2]
-                   |____ ...
-           |____ [4,5]
-                   |____ ...
-|____ [6,7,8,9,9]
-           |____ [6,7]
-                   |____ ...
-           |____ [9,9]
-                   |____ ...
+[script 1]
+        A
+        |____ [1,2,3,4,5]             # 1
+                   |
+         [1,2] ____|____ [4,5]        # 2
+           |               |
+    [1] ___|___ [2] [4] ___|___ [5]   # 3
+
 ```
-In other words, you're dividing the initial array to half size arrays if the element you're looking for
-is either side of the initial array.
+
+let's explain what the algorithm did step by step.
+
+1. From the first the initial array, we chose the mid element (3) and saw that the element we are looking for (5)
+is bigger than 3
+2. so we took the second half of the array composed of [4,5]
+3. we applied the same algorithm as in 1) and obtain the elemt 5 which is equal to the element we were looking for.
+
+## Worse case time complexity
+
+The above example is the perfect case of worse case binary search. And we want to know what exactly is the Time Complexity
+of that worst case scenario. For me, the best way is to start by explaining exactly what we are looking for here.
+The worse case time complexity here refers to a number for which we have the maximum height through the execution of the algorithm.
+That height is obtained at a level where we have N children as on [script 1], and that number is a power of 2 as the initial is halved everytime.
+
+
