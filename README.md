@@ -71,3 +71,7 @@ of the binary search tree. Which is :
 ```python
 O(logn)
 ```
+
+
+## References 
+https://hackernoon.com/what-does-the-time-complexity-o-log-n-actually-mean-45f94bb5bfbf
