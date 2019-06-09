@@ -65,7 +65,8 @@ log2 n = k
 
 ## Final thoughts
 
-So we can deduce that the worse case complexity of a binary search is actually :
+So, from the above, we can deduce that the worse case time complexity of a binary search is actually the highest level
+of the binary search tree. Which is :
 
 ```python
 O(logn)
