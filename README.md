@@ -55,8 +55,8 @@ That can be writen as :
 2^k = n
 ```
 
-k being the highest level we want to determine the worse case complixity of the binary search.
-That number k can be obtained by using the log property.
+k being the highest level we want, to determine the worse case complixity of the binary search
+can be obtained by using the log property.
 
 ```python
 [script 2]
