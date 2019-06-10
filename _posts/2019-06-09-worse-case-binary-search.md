@@ -2,11 +2,7 @@
 
 ## Introduction
 
-Binary search is one of those algorithms that exibit a Mathematical property called the logarithm.
-writing this first sentence, I am sure I may have lost a couple of readers already... but if you're still
-reading this, you might have a chance to discover how this logarithm property emmerges from executing 
-a Binary search algorithm. Hopefully, you might be able to apply this notion to understand other types of 
-problems that exibit the same property.
+Binary search is one of those algorithms that exhibit a Mathematical property called the logarithm. writing this first sentence, I am sure I may have lost a couple of readers already… but if you’re still reading this, you might have a chance to discover how that logarithm property emerges from executing a Binary search algorithm. Hopefully, you might be able to apply this notion to understand other types of problems that exhibit the same property.
 
 
 ## Binary search
@@ -34,27 +30,27 @@ Suppose that we're searching for the number 5, to perform the binary search, we 
 ```
 
 let's explain what the algorithm did step by step.
-
 1. From the first the initial array, we chose the mid element (3) and saw that the element we are looking for (5)
 is bigger than 3
 2. so we took the second half of the array composed of [4,5]
-3. we applied the same algorithm as in 1) and obtain the elemt 5 which is equal to the element we were looking for.
+3. we applied the same algorithm as in 1) and obtain the element 5 which is equal to the element we were looking for.
+
 
 ## Worse case time complexity
 
-The above example is the perfect case of worse case binary search. And we want to know what exactly is the Time Complexity
-of that worst case scenario. For me, the best way is to start by explaining exactly what we are looking for here.
+The above example is the perfect case of a worse case binary search. And we want to know what exactly is the Time Complexity
+of that worst-case scenario. For me, the best way is to start by explaining exactly what we are looking for here.
 The worse case time complexity here refers to a number for which we have the maximum height through the execution of the algorithm.
-That height is obtained at a level where we have n children as on [script 1], and that number is a power of 2 as the initial is halved everytime.
+That height is obtained at a level where we have children as on [script 1], and that number is a power of 2 as the initial is halved every time.
 We can see that at level 0 with have 1 parent, 
-then at level 1 we have 2 children, etc.
-That can be writen as :
+then at level 1, we have 2 children, etc.
+That can be written as :
 
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\2^k=n" title="logarithm" />
 
 
-k being the highest level we want, to determine the worse case complixity of the binary search
+k is the highest level we want, to determine the worse case complexity of the binary search
 can be obtained by using the log property.
 
 
