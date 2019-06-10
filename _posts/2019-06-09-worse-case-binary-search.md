@@ -50,27 +50,25 @@ We can see that at level 0 with have 1 parent,
 then at level 1 we have 2 children, etc.
 That can be writen as :
 
-```python
-[script 1]
-2^k = n
-```
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\2^k=n" title="logarithm" />
+
 
 k being the highest level we want, to determine the worse case complixity of the binary search
 can be obtained by using the log property.
 
-```python
-[script 2]
-log2 n = k
-```
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\log_{2}(n)=k" title="logarithm" />
+
+
 
 ## Final thoughts
 
 So, from the above, we can deduce that the worse case time complexity of a binary search is actually the highest level
 of the binary search tree. Which is :
 
-```python
-O(logn)
-```
+
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\Theta(\log_{2}(n))" title="logarithm" />
 
 
 ## References 
