@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Binary search is one of those algorithms that exibits a Mathematical property called the logarithm.
+Binary search is one of those algorithms that exibit a Mathematical property called the logarithm.
 writing this first sentence, I am sure I may have lost a couple of readers already... but if you're still
 reading this, you might have a chance to discover how this logarithm property emmerges from executing 
 a Binary search algorithm. Hopefully, you might be able to apply this notion to understand other types of 
@@ -72,4 +72,4 @@ of the binary search tree. Which is :
 
 
 ## References 
-https://hackernoon.com/what-does-the-time-complexity-o-log-n-actually-mean-45f94bb5bfbf
+[hackernoon](https://hackernoon.com/what-does-the-time-complexity-o-log-n-actually-mean-45f94bb5bfbf)
