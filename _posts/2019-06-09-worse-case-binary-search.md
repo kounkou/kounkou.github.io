@@ -45,7 +45,7 @@ is bigger than 3
 The above example is the perfect case of worse case binary search. And we want to know what exactly is the Time Complexity
 of that worst case scenario. For me, the best way is to start by explaining exactly what we are looking for here.
 The worse case time complexity here refers to a number for which we have the maximum height through the execution of the algorithm.
-That height is obtained at a level where we have N children as on [script 1], and that number is a power of 2 as the initial is halved everytime.
+That height is obtained at a level where we have n children as on [script 1], and that number is a power of 2 as the initial is halved everytime.
 We can see that at level 0 with have 1 parent, 
 then at level 1 we have 2 children, etc.
 That can be writen as :
