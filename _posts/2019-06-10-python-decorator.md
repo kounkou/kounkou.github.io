@@ -11,7 +11,7 @@ Python looks as an executable pseudocode language. But the more I look into the 
 Let's start with the structure of the Python decorator before analyzing it
 
 ```python
-import time
+from time import time
 
 def func(f):
    def wrapper(x):
