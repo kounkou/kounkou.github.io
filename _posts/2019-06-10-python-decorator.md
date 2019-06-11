@@ -14,7 +14,9 @@ Let's start with the structure of the Python decorator before analyzing it
 from time import time
 
 def func(f):
+   print('f is located : ', id(f))
    def wrapper(x):
+      print('inside the wrapper function')
       before = time()
       result = f(x)
       after  = time()
@@ -31,4 +33,7 @@ if __name__ == '__main__':
 ```
 
 ## Analyzing the structure
+
+The high level structure of the decorator is essentially wrapping up a function inside another function to be able to use the capacity to use the syntax **@func**
+Instead, let's understand what's going on when calling a decorator function.
 
