@@ -3,7 +3,7 @@
 
 ## Introduction
 
-To be honest, I didn't think I would have to write a post talking about Python. Coming from a complicated language as C++,
+To be honest, I didn't think I would have to write a post talking about Python. Coming from a complicated language such as C++,
 Python looks as an executable pseudocode language. But the more I look into the language, the more I see the beauty of the Python language. So I decided to write this little post about a feature that most Python scripters barely touch, but that I find extremely well made.
 
 ## Decorator structure
