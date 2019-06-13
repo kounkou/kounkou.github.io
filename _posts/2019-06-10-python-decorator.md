@@ -51,7 +51,7 @@ Instead, let's understand what's going on when calling a decorator function usin
 ```
 
 Pretty easy right, the func will create a python closure, and just return that created closure.
-If you were looking for the all instructions executed inside the func, have a look at the dis below :smile:
+If you were looking for the all instructions executed inside the func, have a look at the dis below
 it's when calling the square function that things get executed in a symphony !
 
 ```python
