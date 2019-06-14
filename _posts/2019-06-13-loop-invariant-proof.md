@@ -3,20 +3,19 @@
 
 ## Introduction
 
-Some algorithms are so simple that, most people would barely touch them under the surface.
+Some algorithms are so simple that, most people wouldn't look bebeath the surface.
 I was reading a document online about sorting algorithms, and a very simple question was asking
-to demonstrate that an algorithm would produce the expected result, in short, sorting the given list of elements.
-I think that question is profound. It asks the question if our understanding of how the algorithm 
-used produces the correct output.
+to demonstrate how that sorting algorithm would produce the expected result, in short, produce a list of sorted elements.
+I think that question is profound. It asks the question of our true understanding of how the algorithm produces the correct output.
 In the following section, we will first expose an easy sorting algorithm, you've guessed it, a buble sort... and 
-demonstrate that applying instructions on the container will produce the expected result.
+demonstrate that applying instructions on the container will produce the expected result following a method called loop invariant.
 
 ## Buble sort
 
 I guess no introduction is needed for the buble sort here... but in case you're short in memory or new to programming,
 let me describe how the buble sort algorithm works.
-As the name explains it, Buble sort will sort a list of elements (Integers in our case), but moving the bigger elements to the end or the beginning of the list like bubles going up in a bottle of soda.
-Here is an implementation of the buble sort in Python.
+As the name suggests, Buble sort will sort a list of elements (Integers in our case), but moving the bigger elements to the end or the beginning of the list like bubles going up in a bottle of soda.
+Here is an implementation of the buble sort in Python. yeah,... I am in love with Python these days.
 
 ```python
 
@@ -44,27 +43,26 @@ The above code produces  :
 
 ## Loop invariant
 
-To prove that the code produces the right result on top of displaying the right result, we're going to use the loop invariant method. Loop invariant are a powerful tool to validate programs by stating assertions on the program, before during and after the execution of the application. Please have a look at the references for more information.
+To prove that the code produces the right result on top of displaying the right result, we're going to use the loop invariant method. Loop invariant are a powerful tool to validate programs by stating assertions on the program, before, during and after the execution of the application. Please have a look at the references for more information.
 To demonstrate that the buble sort produces the right result, let's describe the proof in 3 steps :
 
 - #### Initialization
-  Before starting any loop in the buble sort, elements in the range A[0] to A[i] is made of 0 elements.
-  By convention, 0 element are sorted. Notice that before starting a loop i = 0
+  Before starting any loop in the buble sort, elements in the range A[0] to A[i] are made of {0} elements.
+  By convention, 0 elements are sorted. Notice that before starting a loop i = 0
   This implies that the invariant rule is naturally established here.
   
 - #### Maintenance
-  During the course of the execution, elements going from A[0] to A[i] will become the smallest elements in the 
-  sub array going from A[i] to A[n]
+  During the course of the execution, elements going from A[0] to A[i] will become the smallest elements and inferior to elements in the sub array going from A[i] to A[n]
   We can notice that with the given code, an invariant is maintain on the left side of the element located at position i.
   
 - #### Termination
-  The last step is a conclusion that is obvious here... indeed, at the end of the loops, i is equal to the size of the array.
-  This means that from the Maintenance step, all elements from A[0] to A[len(A) - 1] are then sorted.
+  The last step is a conclusion that is obvious here... indeed, at the end of the loops, i is equal to the size of the array len(A) - 1.
+  This means that from the Maintenance step, all elements from A[0] to A[len(A) - 1] are then sorted. Meaning all elements in the array !
 
 
 ## Final thoughts
 
-We just demonstrated that the result of executing the buble sort, the result will produce a sorted array. I hope this article helped you put some logic on an algorithm as simple as the buble sort.
+We just demonstrated that the result of executing the buble sort, the result will produce a sorted array. I hope this article helped you put some logic on an algorithm as simple as the buble sort and much more !
 I recall reading 'La Logique des Prédicats du Premier Ordre' in Congo, today I can say that reading the loop invariants method makes me connect the dots looking backward... 
 
 
