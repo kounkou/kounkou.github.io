@@ -62,8 +62,7 @@ To demonstrate that the buble sort produces the right result, let's describe the
 
 ## Final thoughts
 
-We just demonstrated that the result of executing the buble sort, the result will produce a sorted array. I hope this article helped you put some logic on an algorithm as simple as the buble sort and much more !
-I recall reading 'La Logique des Prédicats du Premier Ordre' in Congo, today I can say that reading the loop invariants method makes me connect the dots looking backward... 
+We just demonstrated that the result of executing the buble sort is a sorted array. I hope this article will help you put some logic on an algorithm as simple as the buble sort and much more !
 
 
 ## References
