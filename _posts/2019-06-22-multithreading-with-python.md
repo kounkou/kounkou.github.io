@@ -32,4 +32,5 @@ Now that we understand how the GIL works, we can see that a possible solution to
 ## References 
 
 https://docs.python.org/2/tutorial/stdlib2.html#multi-threading
+
 https://realpython.com/python-gil/
