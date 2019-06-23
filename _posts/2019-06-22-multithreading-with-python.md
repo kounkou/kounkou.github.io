@@ -4,7 +4,7 @@
 ## Introduction
 
 I have been talking to a colleague about multithreading in Python recently, but didn't realize the subtle traps of using
-multithreading the Python... To save the face, I decided to really deep dive into Python multithreading and 
+multithreading with Python... To save the face, I decided to really deep dive into Python multithreading and 
 try as hard as I can to understand what this Python feature really is without any assumptions from my c++ background.
 Multi-threading is the art for decoupling sequentially independent tasks. In this post, I will focus on 2 of the possibilities
 offered by Python to perform multithreading computations. The first one is the basics module threading.
