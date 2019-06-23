@@ -29,6 +29,8 @@ Now that we understand how the GIL works, we can see that a possible solution to
   stated above.
   Python provide a complete multiprocessing module
 
+
+
 ## References 
 
 https://docs.python.org/2/tutorial/stdlib2.html#multi-threading
