@@ -23,7 +23,7 @@ github_username:  gkounkou
 
 # Build settings
 markdown: kramdown
-theme: beautiful-jekyll
+theme: jekyll-mdl
 plugins:
   - jekyll-feed
 
