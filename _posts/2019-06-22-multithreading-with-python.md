@@ -6,8 +6,38 @@
 I have been talking to a colleague about multithreading in Python recently, but didn't realize the subtle traps of using
 multithreading with Python... To save the face, I decided to really deep dive into Python multi-threading and 
 try as hard as I can to understand what this Python feature really is without any assumptions from my c++ background.
-multi-threading is the **art** for decoupling sequentially independent tasks. In this post, I will focus on 2 possibilities offered by Python to perform multi-threading computations. The first one is possible with the use of the basics module threading. Coming from c++, the threading module is the most intuitive module available in order to perform multithreaded computations. It offers basic primitives to create threads, start them and join or detach them.
-Multiprocessing is more complex, and we'll learn about that module during the course of this post.
+multi-threading is the **art** for decoupling sequentially independent tasks. In this post, I will focus on 2 possibilities offered by Python to perform multi-threading computations. The first one is possible with the use of the basics module threading. Coming from c++, the threading module is the most intuitive module available in order to perform multithreaded computations. It offers basic primitives to create threads, start them and join or detach them. Here is an example code with multithreading and lock/release locks :
+
+```python
+import threading                                                                                                                  
+import time
+from random import randint
+
+# critical section
+RESOURCE = 0 
+
+mutex = threading.Lock()
+
+def modify_resource(val):
+   print('working on ', threading.current_thread().name)
+   time.sleep(randint(0, 10))
+   mutex.acquire(True)
+   print('acquire a lock... from ', threading.current_thread().name)
+   mutex.release()
+   print('release a lock... from ', threading.current_thread().name)
+
+if __name__ == '__main__':
+   arr = []
+   for i in range(10):
+      arr.append(threading.Thread(target = modify_resource, args = (i,)))
+   for i in range(10):
+      arr[i].start()
+   for i in range(10):
+      arr[i].join()
+
+```
+
+Multiprocessing is more complex, but simple to use and we'll learn about that module during the course of this post.
 
 ## Before talking about multithreading
 
