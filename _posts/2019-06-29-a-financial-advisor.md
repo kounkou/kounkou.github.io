@@ -42,6 +42,16 @@ To close this post, I wanted to performed some tests and show some example of si
 
 - Bank A
 
+```bash
+0 ->  2                  7000
+2 ->  5 interest : 0.5 : 7035
+5 -> 11 interest : 2   : 7175.7
+
+You will make : $7175.7 from a $7000 investment 
+```
+
+- Bank B
+
 If we were to run an algorithm, one of the best paths throught the graph A would yield the following result :
 
 ```bash
@@ -53,14 +63,5 @@ If we were to run an algorithm, one of the best paths throught the graph A would
 You will make : $7159.96 from a $7000 investment 
 ```
 
-- Bank B
-
-```bash
-0 ->  2                  7000
-2 ->  5 interest : 0.5 : 7035
-5 -> 11 interest : 2   : 7175.7
-
-You will make : $7175.7 from a $7000 investment 
-```
 
 It seems pretty obvious, that you should probably go to bank B !
