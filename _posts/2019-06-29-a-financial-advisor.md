@@ -45,7 +45,6 @@ To close this post, I wanted to performed some tests and show some example of si
 If we were to run an algorithm, one of the best paths throught the graph A would yield the following result :
 
 ```bash
-best cumulated interests : 2.268
 0 ->  2                    7000.00
 2 ->  5 interest : 0.756 : 7052.92
 5 ->  8 interest : 0.756 : 7106.24
