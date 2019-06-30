@@ -57,13 +57,11 @@ You will make : $7159.96 from a $7000 investment
 - Bank B
 
 ```bash
-0  ->  2                  7000
-2  ->  5 interest : 0.5 : 7035
-5  -> 11 interest : 2   : 7175.7
-11 -> 17 interest : 2   : 7319.21
-17 -> 23 interest : 2   : 7465.6
+0 ->  2                  7000
+2 ->  5 interest : 0.5 : 7035
+5 -> 11 interest : 2   : 7175.7
 
-You will make : $7465.6 from a $7000 investment 
+You will make : $7175.7 from a $7000 investment 
 ```
 
 It seems pretty obvious, that you should probably go to bank B !
