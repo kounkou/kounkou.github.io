@@ -44,7 +44,7 @@ To close this post, I wanted to performed some tests and show some example of si
 
 If we were to run an algorithm, one of the best paths throught the graph A would yield the following result :
 
-```python
+```bash
 best cumulated interests : 2.268
 0 ->  2                    7000.00
 2 ->  5 interest : 0.756 : 7052.92
@@ -56,7 +56,7 @@ You will make : $7159.96 from a $7000 investment
 
 - Bank B
 
-```python
+```bash
 0  ->  2                  7000
 2  ->  5 interest : 0.5 : 7035
 5  -> 11 interest : 2   : 7175.7
