@@ -15,6 +15,7 @@ In this article I am providing outputs from a project I am working on, to maximi
 
 ## Case study
 
+<img width="647" alt="Screen Shot 2019-06-29 at 10 06 51 PM" src="https://user-images.githubusercontent.com/2589171/60392666-996b8380-9abc-11e9-9cb6-ffc574f7ae11.png">
 
 
 ## Closing thought
