@@ -64,4 +64,4 @@ You will make : $7159.96 from a $7000 investment
 ```
 
 
-It seems pretty obvious, that you should probably go to bank B !
+It seems pretty obvious, that you should probably go to bank A !
