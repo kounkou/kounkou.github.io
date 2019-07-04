@@ -52,7 +52,7 @@ You will make : $7175.7 from a $7000 investment
 
 - Bank B
 
-If we were to run an algorithm, one of the best paths throught the graph B would yield the following result :
+If we were to run an algorithm, one of the best paths through the graph B would yield the following result :
 
 ```bash
 0 ->  2                    7000.00
