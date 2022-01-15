@@ -18,7 +18,8 @@ layout: default
         {% <span class="post-meta">{{ post.date | date: date_format }}</span> %}
         <h6>
           <a class="post-link" href="{{ post.url | relative_url | post.date | date: date_format }}">
-            {{ post.title | escape }}
+            {% {{ post.title | escape }} %}
+            {{ post.title }}
           </a>
         </h6>
         {%- if site.show_excerpts -%}
