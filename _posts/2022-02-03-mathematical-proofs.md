@@ -88,6 +88,6 @@ In this article we have explored 3 powerful proof techniques that are, Induction
 
 ## References 
 
--[Induction](https://en.wikipedia.org/wiki/Mathematical_induction)
--[Contrapositive](https://en.wikipedia.org/wiki/Contraposition)
--[Contradiction](https://en.wikipedia.org/wiki/Proof_by_contradiction)
+- [Induction](https://en.wikipedia.org/wiki/Mathematical_induction)
+- [Contrapositive](https://en.wikipedia.org/wiki/Contraposition)
+- [Contradiction](https://en.wikipedia.org/wiki/Proof_by_contradiction)
