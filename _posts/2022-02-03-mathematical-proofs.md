@@ -2,7 +2,7 @@
 
 ## Introduction
 
-For many of us, working in FAANG means 6 figures salary. Although this is correct, I would say working in FAANG for me, primarly means 
+For many of us, working in FAANG means six-figure salary. Although this is correct, I would say working in FAANG for me, primarly means 
 interracting with very smart and dedicated people. But there is a catch to this last statement. What does it mean to interact with very 
 smart people? What makes you think these people are smart? What is your experience interacting with them? you would ask...
 Well, you guessed it, answering this question would probably take us a lot of time and involve a fair amount of subjectivity to it. Here, I want to focus
