@@ -2,50 +2,37 @@
 
 ## Introduction
 
-In this Blog post, I am discussing my understanding of my 3 most powerful Mathematical Proof strategies.
+For many of us, working in FAANG means 6 figures salary. Although this is correct, I would say working in FAANG for me, primarly means 
+interracting with very smart and dedicated people. But there is a catch to this last statement. What does it mean to interact with very 
+smart people ? What makes you think these people are smart ? What is your experience interacting with them ? you would ask...
+Well, you guessed it, answering this question would probably take us a lot of time and involve a fair amount of subjectivity to it. Here, I want to focus
+on an aspect that I believe is common amoung the very smart people I have met and interracted with. That is, things I heared, usually sound like proofs, yup... mathematical proofs. So in the following article, I discuss 3 powerful Mathematical proof techniques that I would consider helpful in FAANG environment, might it be
+during interviews or in everyday life. For each technique, we will prove an example statement to get comfortable with the technique. Without further due, let's jump right in the techniques !
 
 
 ## Induction
 
-Mathematical induction is a prood technic, that demonstrates that a statement
-holds for all natural numbers N (0, 1, 2, 3, ...)
-To prove a statement by induction, there are 2 steps to follow :
-
-1. Prove that the statement holds for the Base case.
-2. Prove that the statement holds for the case k + 1.
-
 Example :
 
-In this example we want to prove that the sum of n integers is 
-
-
-<img src="https://latex.codecogs.com/svg.image?\sum_{1}^{k}&space;n&space;=&space;n&space;*&space;(n&space;&plus;&space;1)&space;/&space;2" title="\sum_{1}^{k} n = n * (n + 1) / 2" />
+<img src="https://latex.codecogs.com/svg.image?P(n)&space;=&space;\sum_{0}^{n}&space;i&space;=&space;n*(n&plus;1)/2&space;" title="P(n) = \sum_{0}^{n} i = n*(n+1)/2 " />
 
 Proof : 
 
-1. Prove that the statement holds for the Base case. 
-
-<img src="https://latex.codecogs.com/svg.image?P(n)=0&plus;1&plus;2&plus;...&plus;n&space;=&space;n*(n&plus;1)/2&space;" title="P(n)=0+1+2+...+n = n*(n+1)/2 " />
-<img src="https://latex.codecogs.com/svg.image?P(0)=0&plus;1&plus;2&plus;...&plus;0&space;=&space;0*(0&plus;1)/2&space;=&space;0&space;" title="P(0)=0+1+2+...+0 = 0*(0+1)/2 = 0 " />
-<img src="https://latex.codecogs.com/svg.image?P(k&plus;1)=0&plus;1&plus;2&plus;...&plus;k&plus;1&space;=&space;(k&plus;1)*(k&plus;1&plus;1)/2&space;=&space;(k^{2}&space;&plus;&space;3k&space;&plus;&space;2)/2&space;" title="P(k+1)=0+1+2+...+k+1 = (k+1)*(k+1+1)/2 = (k^{2} + 3k + 2)/2 " />
-<img src="https://latex.codecogs.com/svg.image?P(k&plus;1)=(k&plus;1)((k&plus;1)&plus;1)/2&space;=&space;P(k&plus;1)&space;" title="P(k+1)=(k+1)((k+1)+1)/2 = P(k+1) " />
-
-If we change k+1 for K, we obtain 
-
-<img src="https://latex.codecogs.com/svg.image?P(K)=(K)((K)&plus;1)/2&space;" title="P(K)=(K)((K)+1)/2 " />
-
-So the statement must be true.
-
-
 ## Contrapositive
 
-WIP
+Example :
 
+Prove that if <img src="https://latex.codecogs.com/svg.image?x^{2}" title="x^{2}" /> is even, then <img src="https://latex.codecogs.com/svg.image?x" title="x" /> is even
+
+Proof : 
 
 ## Contradiction
 
-WIP
+Example :
 
+<img src="https://latex.codecogs.com/svg.image?\sqrt{2}" title="\sqrt{2}" /> is irrational
+
+Proof : 
 
 ## Final thoughts
 
@@ -54,5 +41,6 @@ WIP
 
 ## References 
 
-- [Induction Models](https://arxiv.org/abs/2008.06410)
-- [latex](https://latex.codecogs.com/)
+-[]()
+-[]()
+-[]()
