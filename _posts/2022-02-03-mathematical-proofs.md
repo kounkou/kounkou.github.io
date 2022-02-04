@@ -18,6 +18,25 @@ Example :
 
 Proof : 
 
+1. We start by proving a base case, P(1) for instance
+
+<img src="https://latex.codecogs.com/svg.image?P(1)=0&plus;1&plus;2&plus;...&plus;1&space;=&space;1*(1&plus;1)/2" title="P(1)=0+1+2+...+1 = 1*(1+1)/2" />
+
+2. We finish by proving that the statement holds for a number k + 1
+
+<img src="https://latex.codecogs.com/svg.image?P(k&plus;1)=0&plus;1&plus;2&plus;...&plus;k&plus;1&space;=&space;k*(k&plus;1)/2&space;&plus;&space;(k&plus;1)" title="P(k+1)=0+1+2+...+k+1 = k*(k+1)/2 + (k+1)" />
+
+Then
+
+<img src="https://latex.codecogs.com/svg.image?P(k&plus;1)=0&plus;1&plus;2&plus;...&plus;k&plus;1&space;=&space;(k&plus;1)((k&plus;1)&plus;1)/2" title="P(k+1)=0+1+2+...+k+1 = (k+1)((k+1)+1)/2" />
+
+We can see that if we replace k + 1 with K, 
+
+<img src="https://latex.codecogs.com/svg.image?P(K)=0&plus;1&plus;2&plus;...&plus;K&space;=&space;(K)((K)&plus;1)/2" title="P(K)=0+1+2+...+K = (K)((K)+1)/2" />
+
+Which shows that the statement holds for k + 1.
+ 
+
 ## Contrapositive
 
 Example :
