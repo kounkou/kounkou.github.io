@@ -7,8 +7,12 @@ In this Blog post, I am discussing my understanding of my 3 most powerful Mathem
 
 ## Induction
 
-1. Prove that the statement stands for the Base case.
-2. Prove that the statement stands for the case k + 1.
+Mathematical induction is a prood technic, that demonstrates that a statement
+holds for all natural numbers N (0, 1, 2, 3, ...)
+To prove a statement by induction, there are 2 steps to follow :
+
+1. Prove that the statement holds for the Base case.
+2. Prove that the statement holds for the case k + 1.
 
 Example :
 
