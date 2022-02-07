@@ -69,4 +69,3 @@ Programming. This concludes our brief article, I hope you enjoyed it!
 ## References 
 
 - [Induction](https://en.wikipedia.org/wiki/Mathematical_induction)
-- [Induction, Recursion] chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fwww.site.uottawa.ca%2F~lucia%2Fcourses%2F2101-10%2Flecturenotes%2F06Induction.pdf&clen=677580&chunk=true
