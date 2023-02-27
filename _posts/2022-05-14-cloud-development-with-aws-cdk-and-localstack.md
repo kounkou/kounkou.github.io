@@ -14,7 +14,7 @@ For the sake of this article, I chose to only explore AWS solutions for Cloud de
 I am using aws cdk and localstack. The following command will help you install the packages necessary for the rest of the article.
 
 ```bash
-...
+npm install -g aws-cdk-local aws-cdk
 ```
 
 ## CDK local
