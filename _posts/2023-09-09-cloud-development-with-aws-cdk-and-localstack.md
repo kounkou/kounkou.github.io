@@ -1,5 +1,7 @@
 # Cloud development
 
+<img width="1000" height="450" alt="Screenshot 2023-09-17 at 7 00 50 PM" src="https://github.com/kounkou/kounkou.github.io/assets/2589171/4a02e421-9107-46ef-86fc-14166a014eb5">
+
 ## Introduction
 
 Over the past two weeks, I've had the opportunity to travel across three different continents! While gaining access to the internet turned out to be less challenging than I initially anticipated, I still couldn't shake off my concerns about the security of my online activities when connecting to unsecure networks like those in hotels and cafes.
