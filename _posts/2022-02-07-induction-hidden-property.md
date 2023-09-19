@@ -1,5 +1,8 @@
 # Induction hidden property
 
+<img width="1000" height="450" alt="Screenshot 2023-09-18 at 11 22 29 PM" src="https://github.com/kounkou/kounkou.github.io/assets/2589171/35925e46-5939-4298-ac75-cf65e3e9330e">
+Mineral del Monte - San Agustín
+
 ## Introduction
 
 In my previous article called [Mathematical proofs](https://kounkou.github.io/2022/02/03/mathematical-proofs.html), I discussed 3 of the most powerful proof techniques.
