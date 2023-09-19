@@ -56,7 +56,7 @@ To demonstrate that the buble sort produces the right result, let's describe the
   
 - #### Maintenance
   During the course of the execution, elements going from A[0] to A[i] will become the smallest elements and smaller than elements in the sub array going from A[i] to A[n]
-  We can notice that with the given code, an invariant is maintained on the left side of the element located at position i.
+  We can notice that with the given code, an invariant is maintained on the left side of the element located at position i
   
 - #### Termination
   The last step is a conclusion that is obvious here... indeed, at the end of the loops, i is equal to the size of the array - 1, len(A) - 1 being the last position.
