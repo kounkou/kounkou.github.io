@@ -1,5 +1,7 @@
 # Multi-threading
 
+<img width="1000" height="450" alt="Screenshot 2023-09-18 at 11 50 09 PM" src="https://github.com/kounkou/kounkou.github.io/assets/2589171/cbe8ecc9-e3c3-4635-a8a7-1e05acf2d0d7">
+Diosso
 
 ## Introduction
 
