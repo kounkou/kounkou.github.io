@@ -1,5 +1,8 @@
 # Mathematical Proofs
 
+<img width="1000" height="450" alt="Screenshot 2023-09-18 at 11 33 39 PM" src="https://github.com/kounkou/kounkou.github.io/assets/2589171/fb711bbc-17f8-4abf-b442-21d2f0ff6949">
+Hinda
+
 ## Introduction
 
 For many of us, working in FAANG means six-figure salary. Although this is correct, I would say working in FAANG for me, primarly means 
