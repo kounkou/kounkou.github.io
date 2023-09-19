@@ -1,5 +1,7 @@
 # A financial advisor for your investments
 
+<img width="1000" height="450" alt="Screenshot 2023-09-18 at 11 43 10 PM" src="https://github.com/kounkou/kounkou.github.io/assets/2589171/55451bb5-116f-4890-a4e9-3d6bd577bd8b">
+Lisboa - São Vicente
 
 ## Introduction
 
