@@ -1,5 +1,8 @@
 # Binary search worst case complexity
 
+<img width="1000" height="450" alt="Screenshot 2023-09-19 at 12 09 28 AM" src="https://github.com/kounkou/kounkou.github.io/assets/2589171/b2d5457c-b5ff-48a6-8426-a54ca411ca10">
+Victoria Causeway Marina
+
 ## Introduction
 
 Binary search is one of those algorithms that exhibit a Mathematical property called the logarithm. writing this first sentence, I am sure I may have lost a couple of readers already… but if you’re still reading this, you might have a chance to discover how that logarithm property emerges from executing a Binary search algorithm. Hopefully, you might be able to apply this notion to understand other types of problems that exhibit the same property.
