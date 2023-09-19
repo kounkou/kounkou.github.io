@@ -1,6 +1,9 @@
 
 # Decorator in Python
 
+<img width="1000" height="450" alt="Screenshot 2023-09-19 at 12 09 07 AM" src="https://github.com/kounkou/kounkou.github.io/assets/2589171/5c93b60a-5a50-46a3-87ca-6eff12e08d7a">
+Langley
+
 ## Introduction
 
 To be honest, I didn't think I would have to write a post talking about Python. Coming from a complicated language such as C++,
