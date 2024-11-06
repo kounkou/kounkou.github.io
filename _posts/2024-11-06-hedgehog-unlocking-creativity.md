@@ -116,8 +116,8 @@ public:
 
 ## Complexity Analysis
 
-- **Time Complexity**: Inserting all strings into the Trie takes \(O(N \times L)\), where \(N\) is the number of strings, and \(L\) is the average length of the strings. Traversing the Trie to find the longest common prefix takes \(O(L)\).
-- **Space Complexity**: The space complexity is \(O(N \times L)\), as we store each character of each string in the Trie.
+- **Time Complexity**: Inserting all strings into the Trie takes \(O(N x L)\), where \(N\) is the number of strings, and \(L\) is the average length of the strings. Traversing the Trie to find the longest common prefix takes \(O(L)\).
+- **Space Complexity**: The space complexity is \(O(N x L)\), as we store each character of each string in the Trie.
 
 ## Why This Solution Is Creative
 
