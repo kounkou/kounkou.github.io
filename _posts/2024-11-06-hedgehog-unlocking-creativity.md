@@ -22,7 +22,7 @@ Explanation: There is no common prefix among the input strings.
 
 ## Why Choose a Trie?
 
-Up front, I have to say that practicing on [Hedgehog](https://github.com/kounkou/Hedgehog) seems to have unlock this level of creativity. Hedgehog is focused on learning the basic Data structures and algorithms commonly used
+Up front, I have to say that practicing on [Hedgehog](https://github.com/kounkou/Hedgehog) seems to have unlocked this level of creativity. Hedgehog is focused on learning the basic Data structures and algorithms commonly used
 when solving complex problems. And I suspect practicing on Hedgehog gave some deeper understanding about the nature of some Datastructures and algorithm in a way I might not have been aware of...
 Here is also how my (dynamic) Hedgehog stats look like, I had practiced Tries earlier though
 
