@@ -45,66 +45,63 @@ Here's how we can implement this solution in C++ using a Trie, this seemed to be
 ![IMG_4997](https://github.com/user-attachments/assets/724bfdd3-1ef8-465a-ae55-0c4df1e7afe8)
 
 
-```cpp
-#include <string>
-#include <vector>
-#include <unordered_map>
-#include <memory>
-
-struct TrieNode {
+```cppstruct TrieNode {
     bool end;
-    std::unordered_map<char, std::shared_ptr<TrieNode>> children;
+    unordered_map<char, shared_ptr<TrieNode>> children;
 };
 
 class Trie {
 public:
     Trie() {
-        root = std::make_unique<TrieNode>();
+        root = make_unique<TrieNode>();
     }
 
-    void insert(const std::string& word) {
+    void insert(string word) {
         TrieNode* temp = root.get();
+
         for (char c : word) {
             if (temp->children.find(c) == temp->children.end()) {
-                temp->children[c] = std::make_unique<TrieNode>();
+                temp->children[c] = make_unique<TrieNode>();
             }
             temp = temp->children[c].get();
         }
+
         temp->end = true;
     }
 
-    std::string getLongestCommonPrefix() {
-        std::string prefix;
+    string getMaxRank() {
+        string rankString;
+
         TrieNode* temp = root.get();
 
-        while (temp != nullptr) {
-            // If the current node has more than one child, we have diverged, so we break
-            if (temp->children.size() != 1) {
+        while (temp != nullptr && temp->children.size() == 1 && !temp->end) {
+            if (temp->children.size() == 1) {
+                rankString += temp->children.begin()->first;
+                temp = temp->children.begin()->second.get();
+            } else {
                 break;
             }
-            
-            // Get the single child
-            auto it = temp->children.begin();
-            prefix += it->first;
-            temp = it->second.get();
         }
 
-        return prefix;
+        return rankString;
     }
 
 private:
-    std::shared_ptr<TrieNode> root;
+    shared_ptr<TrieNode> root;
 };
 
 class Solution {
 public:
-    std::string longestCommonPrefix(std::vector<std::string>& strs) {
+    string longestCommonPrefix(vector<string>& strs) {
+        if (strs.empty()) return "";
+
         Trie trie;
-        for (const std::string& s : strs) {
+        for (string s : strs) {
+            if (s.empty()) return "";
             trie.insert(s);
         }
 
-        return trie.getLongestCommonPrefix();
+        return trie.getMaxRank();
     }
 };
 ```
