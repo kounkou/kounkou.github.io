@@ -45,7 +45,8 @@ Here's how we can implement this solution in C++ using a Trie, this seemed to be
 ![IMG_4997](https://github.com/user-attachments/assets/724bfdd3-1ef8-465a-ae55-0c4df1e7afe8)
 
 
-```cppstruct TrieNode {
+```cpp
+struct TrieNode {
     bool end;
     unordered_map<char, shared_ptr<TrieNode>> children;
 };
