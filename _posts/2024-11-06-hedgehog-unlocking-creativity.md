@@ -26,8 +26,7 @@ Up front, I have to say that practicing on [Hedgehog](https://github.com/kounkou
 when solving complex problems. And I suspect practicing on Hedgehog gave some deeper understanding about the nature of some Datastructures and algorithm in a way I might not have been aware of...
 Here is also how my (dynamic) Hedgehog stats look like, I had practiced Tries earlier though
 
-<img width="1212" alt="Screenshot 2024-11-06 at 10 29 10 AM" src="https://github.com/user-attachments/assets/a76c387e-b2ff-49d3-a89a-4650d2e8d874">
-
+<img width="1212" alt="Screenshot 2024-11-07 at 2 48 05 PM" src="https://github.com/user-attachments/assets/700f3658-825a-490d-8224-2a71d3097286">
 
 Using a Trie (prefix tree) to solve this problem is a **creative and efficient approach**. Tries are specifically designed for prefix-based operations, making them highly suitable for this task. Here’s why using a Trie is advantageous:
 
