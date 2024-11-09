@@ -20,6 +20,8 @@ Output: ""
 Explanation: There is no common prefix among the input strings.
 ```
 
+those example were given by leetcode.
+
 ## Why Choose a Trie?
 
 Up front, I have to say that practicing on [Hedgehog](https://github.com/kounkou/Hedgehog) seems to have unlocked this level of creativity. Hedgehog is focused on learning the basic Data structures and algorithms commonly used
@@ -28,17 +30,17 @@ Here is also how my (dynamic) Hedgehog stats look like, I had practiced Tries ea
 
 <img width="1212" alt="Screenshot 2024-11-07 at 2 48 05 PM" src="https://github.com/user-attachments/assets/700f3658-825a-490d-8224-2a71d3097286">
 
-Using a Trie (prefix tree) to solve this problem is a **creative and efficient approach**. Tries are specifically designed for prefix-based operations, making them highly suitable for this task. Here’s why using a Trie is advantageous:
+Using a Trie (prefix tree) to solve this problem is a **creative and efficient approach**. Tries are specifically designed for prefix-based operations, making them highly suitable for this problem. Here’s why using a Trie is advantageous:
 
 1. **Structured Insertion**: Tries allow us to store strings in a way that naturally groups common prefixes. By inserting all the strings into a Trie, we can directly analyze the shared path among them.
 2. **Prefix Path Traversal**: After constructing the Trie, we can traverse it from the root to find the longest shared path, which corresponds to the longest common prefix.
-3. **Scalability**: This method scales well with larger inputs, as it avoids redundant comparisons across strings.
+3. **Scalability**: This method scales well as more strings are provided, as it avoids redundant comparisons across strings.
 
 This solution demonstrates a **high level of creativity** and a strategic choice of data structures.
 
 ## Solution with Trie
 
-Here's how we can implement this solution in C++ using a Trie, this seemed to be the obvious solution to me after drawing the following :
+Here's how I implemented this solution in C++ using a Trie, this seemed to be the obvious solution to me after drawing the following :
 
 
 ![IMG_4997](https://github.com/user-attachments/assets/724bfdd3-1ef8-465a-ae55-0c4df1e7afe8)
@@ -106,6 +108,8 @@ public:
 };
 ```
 
+With Hedgehog, I repeated the implementation of a Trie several times, which gave me confidence on coding the solution.
+
 ### How It Works
 
 1. **Inserting Strings into the Trie**: Each string from the input array is inserted character by character. If a character is not already present in the Trie at a given level, a new node is created.
@@ -156,5 +160,4 @@ This solution handles several edge cases effectively:
 ## Conclusion
 
 The Trie-based approach to finding the longest common prefix is a unique and optimized solution that leverages the power of prefix trees. By inserting strings into the Trie and then traversing to find the longest single-path sequence, we efficiently identify the longest common prefix.
-
-This solution is an excellent example of using data structures creatively to achieve more efficient and scalable algorithms. Whether you’re a beginner or an experienced programmer, recognizing opportunities to apply Tries beyond basic dictionary or search problems can significantly enhance your problem-solving skills.
+This solution is an excellent example of the result of using Hedgehog resulting in creativity to achieve more efficient and scalable resolution of problems. 
