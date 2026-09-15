@@ -1,8 +1,5 @@
 # The Swing: A Better Way to Think About VO₂max Training
 
-If like me, you're working to improve your cardiovascular fitness, take a look at [**Bomoi**](https://testflight.apple.com/join/rP4E2FZY)
-Bomoi helps you know when to apply the **right stimulus, at the right time, in the right amount** while giving your body time to adapt, [Request to Join Bomoi Beta](mailto:gkounkou@gmail.com?subject=Bomoi%20Beta%20Access%20Request&body=Hi%2C%0A%0AI%27d%20like%20to%20request%20access%20to%20the%20Bomoi%20Health%20beta.%0A%0AMy%20email%20address%20is%3A%20)
-
 
 ## The Swing
 
@@ -46,4 +43,7 @@ Training is no different.
 
 > **The goal isn't to train harder every day. It's to know when the next push will make the swing go higher.**
 
+
+If like me, you're working to improve your cardiovascular fitness, take a look at [**Bomoi**](https://testflight.apple.com/join/rP4E2FZY)
+Bomoi helps you know when to apply the **right stimulus, at the right time, in the right amount** while giving your body time to adapt, [Request to Join Bomoi Beta](mailto:gkounkou@gmail.com?subject=Bomoi%20Beta%20Access%20Request&body=Hi%2C%0A%0AI%27d%20like%20to%20request%20access%20to%20the%20Bomoi%20Health%20beta.%0A%0AMy%20email%20address%20is%3A%20)
 
