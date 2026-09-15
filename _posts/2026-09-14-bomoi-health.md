@@ -1,12 +1,13 @@
 # The Swing: A Better Way to Think About VO₂max Training
 
-If you're working to improve your cardiovascular fitness, take a look at [**Bomoi**](https://testflight.apple.com/join/rP4E2FZY). It helps you apply the **right stimulus, at the right time, in the right amount**—while giving your body time to adapt.
+If like me, you're working to improve your cardiovascular fitness, take a look at [**Bomoi**](https://testflight.apple.com/join/rP4E2FZY). Access is free uppon sharing your email address which is used as login.
+Bomoi helps you know when to apply the **right stimulus, at the right time, in the right amount** while giving your body time to adapt.
 
 ## The Swing
 
 Improving VO₂max isn't simply about training harder or pushing your heart rate higher. It's about **timing**.
 
-Think of yourself on a swing. Each time you push at the right moment, you add energy to the movement and the swing rises higher. But if you push too hard or at the wrong moment, you can disrupt the rhythm and actually reduce your momentum.
+A good analogy is to think of yourself on a swing. Each time you push at the right moment, you add energy to the movement and the swing rises higher. But if you push too hard or at the wrong moment, you can disrupt the rhythm and actually reduce your momentum.
 
 Training works much the same way.
 
