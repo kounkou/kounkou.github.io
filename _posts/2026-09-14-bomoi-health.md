@@ -1,4 +1,4 @@
-# The Swing: A Better Way to Think About VO₂max Training
+# The Swing: A Better Way to Think About VO₂max
 
 
 ## The Swing
